@@ -1,3 +1,5 @@
+using System;
+
 public class Fraction
 {
     private int _top;
@@ -15,7 +17,7 @@ public class Fraction
         _bottom = 1;
     }
 
-    public Fraction (int top, int bottom)
+    public Fraction(int top, int bottom)
     {
         _top = top;
         _bottom = bottom;
