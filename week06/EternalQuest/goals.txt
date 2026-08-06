@@ -1,0 +1,4 @@
+80
+SimpleGoal:Give a talk,Speak in sacrament when asked,50,True
+EternalGoal:Study the scriptures,Study for 10 minutes,10
+ChecklistGoal:Attend the temple,Attend and perform any ordinance,20,3,500,1

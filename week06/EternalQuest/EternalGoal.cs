@@ -7,12 +7,12 @@ public class EternalGoal : Goal
 
     public override bool IsComplete()
     {
-        return true;
+        return false;
     }
 
     public override string GetStringRepresentation()
     {
-        return "";
+        return $"EternalGoal:{GetShortName()},{GetDescription()},{GetPoints()}";
     }
 
     public EternalGoal(string name, string description, int points) : base(name, description, points)
