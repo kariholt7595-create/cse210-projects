@@ -9,11 +9,20 @@ public abstract class Activity
         _length = length;
     }
 
-    public abstract double GetDistance();
+    public virtual double GetDistance()
+    {
+        return 0;
+    }
 
-    public abstract double GetSpeed();
+    public virtual double GetSpeed()
+    {
+        return 0;
+    }
 
-    public abstract double GetPace();
+    public virtual double GetPace()
+    {
+        return 0;
+    }
 
     public abstract string GetActivityType();
 
